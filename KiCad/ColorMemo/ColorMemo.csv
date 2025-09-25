@@ -1,0 +1,5 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11,C12","12","104","","","","Capacitor_SMD:C_0603_1608Metric","~"
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12","12","WS2812B","","","","LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm","https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+"SW1,SW2,SW3,SW4,SW5,SW6,SW7,SW8,SW9,SW10,SW11,SW12,SW13,SW14,SW15,SW16,SW17,SW18,SW19,SW20,SW21,SW22,SW23,SW24","24","SW_Push","","","","Button_Switch_THT:SW_PUSH-12mm","~"
+"U1","1","WEMOS_D1_mini","","","","RF_Module:WEMOS_D1_mini_light","https://wiki.wemos.cc/products:d1:d1_mini#documentation"
