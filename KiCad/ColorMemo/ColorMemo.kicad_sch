@@ -1278,12 +1278,6 @@
 		(uuid "09641160-2507-408c-b5a0-ed5d9e3d2a87")
 	)
 	(junction
-		(at 86.36 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b104ad-25fa-455a-b2da-628b83559881")
-	)
-	(junction
 		(at 124.46 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1386,12 +1380,6 @@
 		(uuid "644dbde3-045b-450f-8f5b-9382e81305fc")
 	)
 	(junction
-		(at 86.36 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67d61455-be45-40d6-8859-d44d8cff46bf")
-	)
-	(junction
 		(at 124.46 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1458,22 +1446,10 @@
 		(uuid "a5a24c8b-dfdb-45af-b475-f66899be442d")
 	)
 	(junction
-		(at 166.37 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcc57feb-8f9c-46ce-a3ef-c311483812d4")
-	)
-	(junction
 		(at 105.41 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c49582d8-59a0-43a4-a93f-03a753880564")
-	)
-	(junction
-		(at 243.84 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6822050-f9e8-4a08-b167-bac8a88cdbba")
 	)
 	(junction
 		(at 99.06 166.37)
@@ -1492,18 +1468,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccdcef82-cdb1-436f-bba3-48e92e016eba")
-	)
-	(junction
-		(at 166.37 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfff96c1-bc8b-41ee-9d39-09db6aaa5c45")
-	)
-	(junction
-		(at 243.84 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d2b10fc7-1b6d-411f-8348-bc6634ddb17e")
 	)
 	(junction
 		(at 124.46 156.21)
@@ -1555,16 +1519,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 76.2) (xy 243.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00219a12-d3c6-4dbd-b182-5b96120219c5")
-	)
-	(wire
-		(pts
 			(xy 114.3 149.86) (xy 105.41 149.86)
 		)
 		(stroke
@@ -1585,6 +1539,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 76.2) (xy 86.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0122fa09-7ef0-4152-ae16-6758d6254276")
+	)
+	(wire
+		(pts
 			(xy 105.41 125.73) (xy 124.46 125.73)
 		)
 		(stroke
@@ -1595,13 +1559,13 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 256.54 53.34)
+			(xy 173.99 53.34) (xy 179.07 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0381d4d0-9e4d-4b4f-bc8a-f571f5ff819c")
+		(uuid "051c29a7-a390-491e-8019-3a7ab803b865")
 	)
 	(wire
 		(pts
@@ -1655,16 +1619,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 74.93) (xy 86.36 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09e0d2ef-d731-41fe-9a64-9d3c46b7f3b6")
-	)
-	(wire
-		(pts
 			(xy 38.1 64.77) (xy 45.72 64.77)
 		)
 		(stroke
@@ -1685,17 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 86.36) (xy 86.36 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "104a781c-e9a0-47d8-af05-4a65a6ce7b72")
-	)
-	(wire
-		(pts
-			(xy 166.37 76.2) (xy 166.37 78.74)
+			(xy 166.37 74.93) (xy 166.37 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1745,6 +1689,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 53.34) (xy 276.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165e442a-42dd-490e-b192-627f1158f960")
+	)
+	(wire
+		(pts
 			(xy 152.4 135.89) (xy 152.4 149.86)
 		)
 		(stroke
@@ -1762,16 +1716,6 @@
 			(type default)
 		)
 		(uuid "19541469-b019-417a-a32c-cc0cba7bbddb")
-	)
-	(wire
-		(pts
-			(xy 194.31 53.34) (xy 199.39 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b25359b-4a0b-4cba-8391-7fba96abec5d")
 	)
 	(wire
 		(pts
@@ -1865,16 +1809,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 179.07 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246dbda7-4615-4867-9ce5-69df972b6fb0")
-	)
-	(wire
-		(pts
 			(xy 304.8 44.45) (xy 304.8 45.72)
 		)
 		(stroke
@@ -1895,6 +1829,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 53.34) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c4a746-2025-4bbe-a38a-a71c7aaa3bc4")
+	)
+	(wire
+		(pts
 			(xy 106.68 60.96) (xy 106.68 63.5)
 		)
 		(stroke
@@ -1902,6 +1846,26 @@
 			(type default)
 		)
 		(uuid "2932558d-9c6c-484b-a2ae-f53c1778b482")
+	)
+	(wire
+		(pts
+			(xy 234.95 53.34) (xy 236.22 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29337b6e-1123-4396-8bfd-f97eb5add5fe")
+	)
+	(wire
+		(pts
+			(xy 166.37 86.36) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2df3f075-e4ce-43e7-b43f-7eaffc5b65a9")
 	)
 	(wire
 		(pts
@@ -1985,16 +1949,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 44.45) (xy 86.36 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d34db18-f672-4f44-ab49-f3055357cf40")
-	)
-	(wire
-		(pts
 			(xy 87.63 156.21) (xy 77.47 156.21)
 		)
 		(stroke
@@ -2025,16 +1979,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42b12388-f983-48fc-964f-18dfaee938b8")
-	)
-	(wire
-		(pts
 			(xy 124.46 166.37) (xy 134.62 166.37)
 		)
 		(stroke
@@ -2042,16 +1986,6 @@
 			(type default)
 		)
 		(uuid "4391115d-638f-4ff5-a7f5-4fcc3f66a1a6")
-	)
-	(wire
-		(pts
-			(xy 243.84 88.9) (xy 243.84 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d2e79c-5204-47f5-85d9-2ecc387600bf")
 	)
 	(wire
 		(pts
@@ -2115,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 88.9) (xy 166.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a0ee62-e041-411c-a6d3-64b3d901b6c8")
-	)
-	(wire
-		(pts
 			(xy 147.32 76.2) (xy 147.32 78.74)
 		)
 		(stroke
@@ -2172,6 +2096,26 @@
 			(type default)
 		)
 		(uuid "63cd6fbe-e2a1-47fb-bf42-73e5a315d419")
+	)
+	(wire
+		(pts
+			(xy 243.84 74.93) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b18f8f-ada9-49c0-88a9-f6392ef65285")
+	)
+	(wire
+		(pts
+			(xy 194.31 53.34) (xy 199.39 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "673bc63f-2256-4c93-88ca-65fc742ff140")
 	)
 	(wire
 		(pts
@@ -2335,6 +2279,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 86.36) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81b3288f-e84f-452c-855f-78cb3e598e33")
+	)
+	(wire
+		(pts
 			(xy 227.33 60.96) (xy 227.33 63.5)
 		)
 		(stroke
@@ -2395,16 +2349,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 86.36) (xy 243.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dbaa69f-6c3f-40a4-b1b0-410a1137cca9")
-	)
-	(wire
-		(pts
 			(xy 124.46 125.73) (xy 140.97 125.73)
 		)
 		(stroke
@@ -2425,16 +2369,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 166.37 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "926c9fd5-396a-4708-9963-e1a0c3206b9f")
-	)
-	(wire
-		(pts
 			(xy 77.47 200.66) (xy 87.63 200.66)
 		)
 		(stroke
@@ -2442,6 +2376,16 @@
 			(type default)
 		)
 		(uuid "92b00f7b-9bf5-4b6a-8cd9-2d6cda123e8b")
+	)
+	(wire
+		(pts
+			(xy 86.36 41.91) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92b9d8e6-3496-48bc-b1d2-b78c47dfc71f")
 	)
 	(wire
 		(pts
@@ -2472,16 +2416,6 @@
 			(type default)
 		)
 		(uuid "955578a8-9097-4894-bdaa-a8d2890a2ce1")
-	)
-	(wire
-		(pts
-			(xy 93.98 53.34) (xy 99.06 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ad8edc3-e1f1-4b34-b756-a4cc69ed90cd")
 	)
 	(wire
 		(pts
@@ -2625,16 +2559,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 53.34) (xy 119.38 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af9d13dc-5426-4a31-a54d-25780fdd4e48")
-	)
-	(wire
-		(pts
 			(xy 99.06 166.37) (xy 99.06 180.34)
 		)
 		(stroke
@@ -2765,6 +2689,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 53.34) (xy 119.38 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ea2e0f-5545-4213-8301-d72ca4e90bb8")
+	)
+	(wire
+		(pts
 			(xy 77.47 186.69) (xy 77.47 195.58)
 		)
 		(stroke
@@ -2845,13 +2779,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 76.2) (xy 86.36 78.74)
+			(xy 93.98 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d5a99ce2-4d57-469e-abfb-4857c0959515")
+		(uuid "d80d3058-c6f8-44c9-8af5-4304fe4e9823")
 	)
 	(wire
 		(pts
@@ -2902,16 +2836,6 @@
 			(type default)
 		)
 		(uuid "db0ed518-68b2-40e4-8fc0-7f5e57647f05")
-	)
-	(wire
-		(pts
-			(xy 243.84 74.93) (xy 243.84 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4d022e-97f1-45d5-93c5-a980febf66d0")
 	)
 	(wire
 		(pts
@@ -2995,16 +2919,6 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 53.34) (xy 276.86 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec0df778-457f-445b-b6e4-517a3d18d206")
-	)
-	(wire
-		(pts
 			(xy 243.84 60.96) (xy 243.84 63.5)
 		)
 		(stroke
@@ -3012,16 +2926,6 @@
 			(type default)
 		)
 		(uuid "ed3f0e69-991c-48b2-a9ab-46e7183af483")
-	)
-	(wire
-		(pts
-			(xy 166.37 74.93) (xy 166.37 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee858cb7-38f7-4ed1-b8af-974160b9b65b")
 	)
 	(wire
 		(pts
@@ -3062,6 +2966,16 @@
 			(type default)
 		)
 		(uuid "f300da61-2f18-4da7-a68c-8d149e3a4db0")
+	)
+	(wire
+		(pts
+			(xy 166.37 74.93) (xy 167.64 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f429dd75-a988-4e95-9a27-14f8e8a46655")
 	)
 	(wire
 		(pts
@@ -3112,6 +3026,16 @@
 			(type default)
 		)
 		(uuid "fa71ba60-15b1-4775-bbb5-70609da98339")
+	)
+	(wire
+		(pts
+			(xy 243.84 86.36) (xy 243.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbd380c-8dcf-4753-8319-3f292e253bc0")
 	)
 	(wire
 		(pts
@@ -3183,7 +3107,7 @@
 		)
 		(uuid "51faed1f-5466-4236-b827-5a72234bf5f6")
 	)
-	(label "MUL_ROW_1"
+	(label "MUL_ROW_2"
 		(at 64.77 195.58 0)
 		(effects
 			(font
@@ -3573,7 +3497,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 205.74 0)
 			(effects
 				(font
@@ -4047,7 +3971,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 161.29 0)
 			(effects
 				(font
@@ -4117,7 +4041,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 175.26 0)
 			(effects
 				(font
@@ -4454,7 +4378,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 191.77 0)
 			(effects
 				(font
@@ -4564,7 +4488,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 264.16 53.34 180)
+		(at 264.16 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4572,7 +4496,7 @@
 		(dnp no)
 		(uuid "2c328db8-bb43-4dfc-bd33-48a16cc29904")
 		(property "Reference" "D10"
-			(at 278.13 47.8946 0)
+			(at 250.19 58.7854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4504,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 278.13 50.4346 0)
+			(at 250.19 56.2454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4512,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 262.89 45.72 0)
+			(at 265.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4598,7 +4522,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 261.62 43.815 0)
+			(at 266.7 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 175.26 0)
 			(effects
 				(font
@@ -5003,7 +4927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -5138,7 +5062,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 130.81 0)
 			(effects
 				(font
@@ -5252,7 +5176,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 186.69 53.34 180)
+		(at 186.69 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5260,7 +5184,7 @@
 		(dnp no)
 		(uuid "477da731-ba62-4e57-a984-c822eeeb78b1")
 		(property "Reference" "D6"
-			(at 200.66 47.8946 0)
+			(at 172.72 58.7854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5192,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 200.66 50.4346 0)
+			(at 172.72 56.2454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5200,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 185.42 45.72 0)
+			(at 187.96 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5210,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 184.15 43.815 0)
+			(at 189.23 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5657,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 175.26 0)
 			(effects
 				(font
@@ -5803,7 +5727,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 161.29 0)
 			(effects
 				(font
@@ -5950,7 +5874,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 144.78 0)
 			(effects
 				(font
@@ -6059,71 +5983,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 243.84 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d7a672d-e3f1-49e5-a3ec-ccccc73e6df6")
-		(property "Reference" "#PWR035"
-			(at 243.84 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 243.84 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 243.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6eb78fd0-50f3-4e98-a48f-b02c63bb9628")
-		)
-		(instances
-			(project "ColorMemo"
-				(path "/91f2b27b-9d5b-4758-ab43-71d69bcbd8a1"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 124.46 191.77 90)
 		(unit 1)
@@ -6151,7 +6010,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 191.77 0)
 			(effects
 				(font
@@ -6291,7 +6150,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 161.29 0)
 			(effects
 				(font
@@ -6335,7 +6194,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 106.68 53.34 180)
+		(at 106.68 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6343,7 +6202,7 @@
 		(dnp no)
 		(uuid "784de702-c2e4-4d95-8dc8-7d06ae4dc7cb")
 		(property "Reference" "D2"
-			(at 120.65 47.8946 0)
+			(at 92.71 58.7854 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6351,7 +6210,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 120.65 50.4346 0)
+			(at 92.71 56.2454 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +6218,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 105.41 45.72 0)
+			(at 107.95 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6228,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 104.14 43.815 0)
+			(at 109.22 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,7 +6426,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 205.74 0)
 			(effects
 				(font
@@ -6637,7 +6496,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 144.78 0)
 			(effects
 				(font
@@ -6839,7 +6698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 130.81 0)
 			(effects
 				(font
@@ -7413,7 +7272,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 86.36 44.45 0)
+		(at 86.36 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7422,7 +7281,7 @@
 		(fields_autoplaced yes)
 		(uuid "970c156d-ce7d-46d2-8cee-ab1b6edb3965")
 		(property "Reference" "#PWR01"
-			(at 86.36 48.26 0)
+			(at 86.36 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7290,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 86.36 39.37 0)
+			(at 86.36 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,7 +7298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 44.45 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 44.45 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7316,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 86.36 44.45 0)
+			(at 86.36 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7837,7 +7696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -7973,7 +7832,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 144.78 0)
 			(effects
 				(font
@@ -8043,7 +7902,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 205.74 0)
 			(effects
 				(font
@@ -8162,7 +8021,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 166.37 76.2 0)
+		(at 167.64 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8170,7 +8029,7 @@
 		(dnp no)
 		(uuid "ae01ed35-8cad-4d2e-858e-8dfd5fa2c675")
 		(property "Reference" "#PWR019"
-			(at 166.37 80.01 0)
+			(at 167.64 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8038,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 166.37 71.12 0)
+			(at 167.64 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8187,7 +8046,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 76.2 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 76.2 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8064,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 166.37 76.2 0)
+			(at 167.64 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8655,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 135.89 191.77 0)
 			(effects
 				(font
@@ -8941,7 +8800,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 119.38 175.26 0)
 			(effects
 				(font
@@ -9220,7 +9079,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 191.77 0)
 			(effects
 				(font
@@ -9549,6 +9408,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 243.84 74.93 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3a47887-13c7-4f8a-92f3-4c04f8102188")
+		(property "Reference" "#PWR035"
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 243.84 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 243.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7dfe55ba-cf9d-4b39-b0e4-1517909f3245")
+		)
+		(instances
+			(project ""
+				(path "/91f2b27b-9d5b-4758-ab43-71d69bcbd8a1"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 284.48 53.34 0)
 		(unit 1)
@@ -9782,7 +9707,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 144.78 0)
 			(effects
 				(font
@@ -9852,7 +9777,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 100.33 205.74 0)
 			(effects
 				(font
@@ -10057,7 +9982,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 82.55 161.29 0)
 			(effects
 				(font
