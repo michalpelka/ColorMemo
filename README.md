@@ -1,4 +1,5 @@
 # ColorMemo
+[![Firmware CI](https://github.com/michalpelka/ColorMemo/actions/workflows/firmware-ci.yml/badge.svg)](https://github.com/michalpelka/ColorMemo/actions/workflows/firmware-ci.yml)
 
 An open-source, handheld color memory game built around a WeMos D1 mini (ESP8266), a 3×4 push-button matrix, a 12‑pixel NeoPixel (WS2812) LED array, and a small buzzer. 
 Power it up, memorize the brief color reveal, and then flip tiles two at a time to find matching pairs. Clear the board to win and enjoy the victory animation and melody.
@@ -10,9 +11,12 @@ Below are a few snapshots of the prototype and assembly. Images are stored in `P
 <div align="center">
   <img src="Photos/20251101_024130.jpg" alt="Assembly 2025-11-01 02:41" width="300" />
   <img src="Photos/20251101_024433.jpg" alt="Assembly 2025-11-01 02:44" width="300" />
-  <img src="Photos/20251101_025546.jpg" alt="Assembly 2025-11-01 02:55" width="300" />
+  <img src="Photos/20251101_025546.jpg" alt="Assembly 2025-11-01 02:55" width="300" />   
 </div>
 
+<div align="center">
+  <img src="Photos/pcb.png" alt="pcb.png" width="300" />
+</div>
 
 ## Repository structure
 
