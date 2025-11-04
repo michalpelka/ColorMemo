@@ -4,14 +4,14 @@
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN   D1        // GPIO5 on WeMos D1
-#define BUZZER_PIN D0 
+#define BUZZER_PIN D2 
 #define NUM_LEDS  12        // change to your strip length
 
 #define MUL_ROW_0 D8
 #define MUL_ROW_1 D3
 #define MUL_ROW_2 D4
 
-#define MUL_COL_0 D2
+#define MUL_COL_0 D0
 #define MUL_COL_1 D7
 #define MUL_COL_2 D6
 #define MUL_COL_3 D5
@@ -31,14 +31,14 @@ const uint8_t RowPins[ROWS] = {MUL_ROW_0, MUL_ROW_1, MUL_ROW_2};
 const uint8_t colPins[COLS] = {MUL_COL_0, MUL_COL_1, MUL_COL_2, MUL_COL_3};
 
 // Use NEO_GRBW for RGBW chips (4 channels per pixel) + NEO_KHZ800 for timing
-Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRBW + NEO_KHZ800);
+Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 const uint8_t RED[4]   = {255, 0, 0, 0};
 const uint8_t GREEN[4] = {0, 255, 0, 0};
 const uint8_t BLUE[4]  = {0, 0, 255, 0};
 const uint8_t PURPLE[4] = {128, 0, 128, 0};
 const uint8_t YELLOW[4] = {255, 255, 0, 0};
 const uint8_t CYAN[4]   = {0, 255, 255, 0};
-const uint8_t WHITE[4] = {0, 0, 0, 255};
+const uint8_t WHITE[4] = {255, 255, 255, 0};
 
 const uint8_t ORANGE[4] = {255, 165, 0, 0};
 const uint8_t HOTPINK[4] = {255, 105, 180, 0};
@@ -114,7 +114,14 @@ void ClearDisplay() {
   renderPixelState();
 }
 void setup() {
+  // Serial.begin(9600);
+  // Serial.println();
+  // Serial.println("Memory Info:");
 
+  // Serial.printf("Free Sketch space: %d\n", ESP.getFreeSketchSpace());
+  // Serial.printf("CPU Frequency: %d MHz\n", ESP.getCpuFreqMHz());
+  // Serial.printf("Chip ID: %06X\n", ESP.getChipId());
+  // Serial.printf("Flash Chip ID: %06X\n", ESP.getFlashChipId());
 
   // setup buzzer pin
   pinMode(BUZZER_PIN, OUTPUT);
@@ -368,7 +375,6 @@ void OnButtonPress(uint8_t row, uint8_t col) {
 }
 
 void loop() {
-
   static uint8_t currentRow = 2;
   for (uint8_t r = 0; r < ROWS; r++) {
     digitalWrite(RowPins[r], (r == currentRow) ? LOW : HIGH);
@@ -383,9 +389,10 @@ void loop() {
       pixels[currentRow][c].m_buttonStateRaw = buttonState;
       if (buttonState == LOW) {
         OnButtonPress(currentRow, c);
+        
+        //pixels[currentRow][c].m_color = WHITE;
       }
     }
-  
   }
   //Serial.printf("Row %d c1 : %d c2 : %d c3 : %d c4 : %d\n", currentRow, digitalRead(colPins[0]), digitalRead(colPins[1]), digitalRead(colPins[2]), digitalRead(colPins[3]));
   currentRow = (currentRow + 1) % ROWS;
